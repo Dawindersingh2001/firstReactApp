@@ -1,0 +1,19 @@
+{
+    "blogs": [
+        {
+            "tittle": "Hello this is my blogs first tittle",
+            "author": "Dawinder Singh",
+            "id": 1
+        },
+        {
+            "tittle": "Hello this is my blogs second tittle",
+            "author": "parminder Singh",
+            "id": 2
+        },
+        {
+            "tittle": "Hello this is my blogs third tittle",
+            "author": "harminder Singh",
+            "id": 3
+        }
+    ]
+}
