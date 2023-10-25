@@ -6,7 +6,6 @@ const useFetch = (url)=>{
 
     useEffect(() => {
           fetch(url).then((res) => {
-
                 if(!res.ok){
                       throw Error("Not fetch record");
                 }
@@ -19,8 +18,7 @@ const useFetch = (url)=>{
           }).catch(err => {
                 setError(err.message);
           });
-    });
-
+    },[url]);
 
     return {data,error}
 
