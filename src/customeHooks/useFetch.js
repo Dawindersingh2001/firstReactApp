@@ -6,6 +6,7 @@ const useFetch = (url)=>{
 
     useEffect(() => {
           fetch(url).then((res) => {
+
                 if(!res.ok){
                       throw Error("Not fetch record");
                 }

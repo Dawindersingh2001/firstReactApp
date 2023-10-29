@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 const EditBlog = () =>{
     const {id} = useParams();
     const {data:blogs,error} = useFetch('http://localhost:3000/blogs/' + id);
-    console.log(blogs);
     return <>
     <h1>
        {blogs && (
